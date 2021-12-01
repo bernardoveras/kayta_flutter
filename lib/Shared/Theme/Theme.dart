@@ -1,0 +1,141 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'Colors.dart';
+
+class VvsTheme {
+  static final ThemeData light = ThemeData(
+    appBarTheme: AppBarTheme(
+      actionsIconTheme: IconThemeData(),
+      iconTheme: IconThemeData(),
+      color: VvsColors.primary,
+      elevation: 0,
+    ),
+    primaryColor: VvsColors.primary,
+    brightness: Brightness.light,
+    primaryColorDark: VvsColors.primaryDark,
+    primaryColorLight: VvsColors.primaryLight,
+    backgroundColor: VvsColors.background,
+    floatingActionButtonTheme: FloatingActionButtonThemeData(
+      backgroundColor: VvsColors.primary,
+      elevation: 0,
+      focusElevation: 1,
+      focusColor: Colors.transparent,
+      hoverColor: Colors.transparent,
+      splashColor: Colors.transparent,
+      foregroundColor: Colors.white,
+      hoverElevation: 0,
+      disabledElevation: 0,
+      highlightElevation: 0,
+    ),
+    splashColor: VvsColors.primary,
+    hoverColor: Colors.transparent,
+    scaffoldBackgroundColor: VvsColors.background,
+    cardColor: Colors.white,
+    cardTheme: CardTheme(
+      color: Colors.white,
+    ),
+    iconTheme: IconThemeData(),
+    textTheme: TextTheme(
+      headline1: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 96,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -1.5,
+        decoration: TextDecoration.none,
+      ),
+      headline2: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 60,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -0.5,
+        decoration: TextDecoration.none,
+      ),
+      headline3: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 48,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0,
+        decoration: TextDecoration.none,
+      ),
+      headline4: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 34,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.25,
+        decoration: TextDecoration.none,
+      ),
+      headline5: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 24,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0,
+        decoration: TextDecoration.none,
+      ),
+      headline6: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 20,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.15,
+        decoration: TextDecoration.none,
+      ),
+      subtitle1: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 16,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.15,
+        decoration: TextDecoration.none,
+      ),
+      subtitle2: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.1,
+        decoration: TextDecoration.none,
+      ),
+      bodyText1: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 16,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.5,
+        decoration: TextDecoration.none,
+      ),
+      bodyText2: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.25,
+        decoration: TextDecoration.none,
+      ),
+      button: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 1.25,
+        decoration: TextDecoration.none,
+      ),
+      caption: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 12,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.4,
+        decoration: TextDecoration.none,
+      ),
+      overline: TextStyle(
+        fontFamily: 'Inter',
+        fontSize: 10,
+        fontWeight: FontWeight.w500,
+        letterSpacing: 1.5,
+        decoration: TextDecoration.none,
+      ),
+    ),
+    bottomSheetTheme: BottomSheetThemeData(
+      backgroundColor: VvsColors.background,
+      elevation: 0,
+    ),
+    buttonTheme: ButtonThemeData(),
+    colorScheme: ColorScheme.fromSwatch().copyWith(
+      primary: VvsColors.primary,
+      secondary: VvsColors.secondary,
+    ),
+  );
+}

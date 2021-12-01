@@ -1,0 +1,14 @@
+{
+  "HasValue": false,
+  "Mensagens": [
+    {
+      "Texto": "Id inválido",
+      "Tipo": 2
+    }
+  ],
+  "Ok": false,
+  "HasAlerta": false,
+  "HasError": true,
+  "HasErrorPermissao": false,
+  "HasInfo": false
+}

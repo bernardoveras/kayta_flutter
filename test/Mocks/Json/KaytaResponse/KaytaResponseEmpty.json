@@ -1,0 +1,14 @@
+{
+  "HasValue": false,
+  "Mensagens": [
+    {
+      "Texto": "Nenhum registro encontrado.",
+      "Tipo": 1
+    }
+  ],
+  "Ok": true,
+  "HasAlerta": false,
+  "HasError": false,
+  "HasErrorPermissao": false,
+  "HasInfo": false
+}

@@ -1,0 +1,4252 @@
+{
+  "Value": {
+    "Token": {
+      "AccessToken":
+          "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZCN0FDQzUyMDMwNUJGREI0RjcyNTJEQUVCMjE3N0NDMDkxRkFBRTEiLCJ4NXQiOiJhM3JNVWdNRnY5dFBjbExhNnlGM3pBa2ZxdUUiLCJ0eXAiOiJKV1QifQ.eyJodHRwOi8vc2NoZW1hcy52dnNzaXN0ZW1hcy5jb20uYnIvd3MvaWRlbnRpdHkvY2xhaW1zL3VzdWFyaW8vbm9tZSI6IkFkbWluaXN0cmFkb3IiLCJodHRwOi8vc2NoZW1hcy52dnNzaXN0ZW1hcy5jb20uYnIvd3MvaWRlbnRpdHkvY2xhaW1zL3VzdWFyaW8vbG9naW4iOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvdXN1YXJpby9zZXJpYWwiOiIwMDAwMDAwMSIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvdXN1YXJpby9lbWFpbCI6IiIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvdXN1YXJpby90ZWxlZm9uZXByaW5jaXBhbCI6IiIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvdXN1YXJpby9pZCI6IjYzNDk5MmMyLTUxYTgtNDBkMi05ZmQ0LTA0NGU2MWU1Zjg3ZSIsImNwbHVzNS90YWJlbGFkZXByZWNvL2lkcyI6IjcwNjMzODU0LWFlOTgtNGNmMi1hNWFmLWIyMGJmOGQ3YmVmOSxlNzkzZDQyZC01NzhhLTQzZmMtOTYzMC0zZmE4NTlkNTQxZDYsMDhiZDQzNzctMTQyMy00MmQ2LThkMjItMWJmMzZkYzNiZTRiIiwiY3BsdXM1L3RhYmVsYWRlcHJlY28vNzA2MzM4NTQtYWU5OC00Y2YyLWE1YWYtYjIwYmY4ZDdiZWY5L2Rlc2NvbnRvbWF4aW1vIjoiMCIsImNwbHVzNS90YWJlbGFkZXByZWNvL2U3OTNkNDJkLTU3OGEtNDNmYy05NjMwLTNmYTg1OWQ1NDFkNi9kZXNjb250b21heGltbyI6IjAiLCJjcGx1czUvdGFiZWxhZGVwcmVjby8wOGJkNDM3Ny0xNDIzLTQyZDYtOGQyMi0xYmYzNmRjM2JlNGIvZGVzY29udG9tYXhpbW8iOiIwIiwiaHR0cDovL3NjaGVtYXMudnZzc2lzdGVtYXMuY29tLmJyL3dzL2lkZW50aXR5L2NsYWltcy9ncnVwb2VtcHJlc2EvNDQ3YTc2MjAtMWRlZC00ZDI0LWI1NDYtM2UzOWQ4ZGIwNzZmL3BhZHJhbyI6InRydWUiLCJodHRwOi8vc2NoZW1hcy52dnNzaXN0ZW1hcy5jb20uYnIvd3MvaWRlbnRpdHkvY2xhaW1zL2dydXBvZW1wcmVzYS80NDdhNzYyMC0xZGVkLTRkMjQtYjU0Ni0zZTM5ZDhkYjA3NmYvcHJvZHV0b3NfbGljZW5jaWFkb3MiOiIwMDAwMDMsMDAwMDIwLDAwMDEwMiwwMDAxMDYsMDAwMTA5LDAwMDExNSwwMDAxMzAsMDAwMTMyLDAwMDEzNCwwMDAxNTIsMDAwNjQ0LDkwMDAwMSIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvZ3J1cG9lbXByZXNhL2lkcy8iOiI0NDdhNzYyMC0xZGVkLTRkMjQtYjU0Ni0zZTM5ZDhkYjA3NmYiLCJodHRwOi8vc2NoZW1hcy52dnNzaXN0ZW1hcy5jb20uYnIvd3MvaWRlbnRpdHkvY2xhaW1zL2dydXBvZW1wcmVzYS80NDdhNzYyMC0xZGVkLTRkMjQtYjU0Ni0zZTM5ZDhkYjA3NmYvaWQvIjoiNDQ3YTc2MjAtMWRlZC00ZDI0LWI1NDYtM2UzOWQ4ZGIwNzZmIiwiaHR0cDovL3NjaGVtYXMudnZzc2lzdGVtYXMuY29tLmJyL3dzL2lkZW50aXR5L2NsYWltcy9ncnVwb2VtcHJlc2EvNDQ3YTc2MjAtMWRlZC00ZDI0LWI1NDYtM2UzOWQ4ZGIwNzZmL3JhemFvc29jaWFsIjoiQk9NQkFDSU5JICYgQ0lBIExUREEgLSBNRSIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvZ3J1cG9lbXByZXNhLzQ0N2E3NjIwLTFkZWQtNGQyNC1iNTQ2LTNlMzlkOGRiMDc2Zi9zZXJpYWwiOiIxMDY4NSIsImh0dHA6Ly9zY2hlbWFzLnZ2c3Npc3RlbWFzLmNvbS5ici93cy9pZGVudGl0eS9jbGFpbXMvZ3J1cG9lbXByZXNhLzQ0N2E3NjIwLTFkZWQtNGQyNC1iNTQ2LTNlMzlkOGRiMDc2Zi9pZGVudGlmaWNhZG9yIjoiMTA2ODUiLCJuYmYiOjE2MTM5NDgyNTksImV4cCI6MTkyOTMwODI1OSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eXNlcnZlci52dnNzaXN0ZW1hcy5jb20uYnIiLCJhdWQiOiJodHRwczovL2lkZW50aXR5c2VydmVyLnZ2c3Npc3RlbWFzLmNvbS5ici9yZXNvdXJjZXMifQ.oKfxx4CsxIuS6MdsIuaGsijLBln8ebQ1LAflpDEZOvnYBzYH3wtLFG3YlDlcliDwdN7UgHlh8lg-cObRlXfcs8umexsPUfj57HDv_hO_lz-W2GT8APWmA_5IhMtNH2R1o2H3enFD3xAquzyabBZHcjrm-g5K80CHvhn5EOIn59joLjeI14qin2la8jjQ9b2OBfDnUDDFGB_Xe6R6qFZL29pRmhFiyvGXu_Pd-etVk6siDNiF7t_XuKRZ-008sdQ7qfvTknQDshcAhcvrykDtZOad2hhfxsgGyPfqhoa2E56fa3I1X5j5YnPkOSii6XO9G3JyV-Ow31ceUs-zRODudA"
+    },
+    "UserInfo": {
+      "Claims": [
+        {
+          "Key":
+              "cplus5/Cadastros/AjusteDeCadastroDePessoaDuplicado/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/AtualizacaoDeLimiteDeCreditoDeClientes/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/AtualizacaoDeVendedorDeClientes/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/AtualizarCaracteristicaDaPessoa/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/AtualizarCaracteristicaDaPessoa/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/CaracteristicaDePessoa/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CaracteristicaDePessoa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CaracteristicaDePessoa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CaracteristicaDePessoa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CaracteristicaDePessoa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/CategoriaDeRevenda/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CategoriaDeRevenda/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CategoriaDeRevenda/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CategoriaDeRevenda/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/CategoriaDeRevenda/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/AcessarExtrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/AcessarListagemDeEntradas/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/AcessarListagemDeOrcamentos/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/AcessarListagemDeOrdensDeServico/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/AcessarListagemDeVales/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/AcessarListagemDeVendas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Clientes/Alterar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/AlterarFormaDePagamentoPadrao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/AlterarLimiteDeCredito/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/AtualizarVendedorPrincipal/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/BloquearDesbloquear/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/BloquearDesbloquearNoAfv/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/BloquearDesbloquearVendaAPrazo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/CadastrarClienteParaConsultarCredito/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/ConsultarCredito/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Clientes/EnviarSms/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Clientes/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Clientes/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Clientes/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Cadastros/Clientes/Listar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Cadastros/Clientes/VisualizarConsultaDeCredito/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/AcessarExtrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/EnviarSms/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Concorrente/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Contador/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Contador/AcessarExtrato/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Contador/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Contador/EnviarEmail/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Contador/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Contador/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Contador/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Cadastros/Contador/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/EtiquetaDePessoa/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/EtiquetaDePessoa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/EtiquetaDePessoa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/AcessarExtrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fabricantes/ConsultarCadastroNaReceita/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fabricantes/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/AcessarExtrato/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fornecedores/AcessarListagemDeEntradas/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fornecedores/AcessarListagemDePedidosDeCompras/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fornecedores/AcessarListagemDeVendas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fornecedores/AlterarFormaDePagamentoPadrao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fornecedores/BloquearDesbloquearParaCompra/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Fornecedores/ConsultarCadastroNaReceita/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Fornecedores/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/AcessarExtrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/AlterarDiaDoPagamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/AlterarSalario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Funcionario/VisualizarHistoricoDeDescontos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Funcionario/VisualizarSalario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Motorista/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Motorista/AcessarExtrato/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Motorista/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Motorista/EnviarEmail/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Motorista/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Motorista/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Motorista/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Cadastros/Motorista/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Representantes/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Representantes/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Representantes/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Representantes/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Revenda/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Revenda/AcessarExtrato/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Revenda/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Revenda/EnviarEmail/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Revenda/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Cadastros/Revenda/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Cadastros/Revenda/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/SegmentoDePessoa/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/SegmentoDePessoa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/SegmentoDePessoa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/SegmentoDePessoa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/SegmentoDePessoa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/AcessarExtrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Transportadora/ConsultarCadastroNaReceita/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Transportadora/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Vendedor/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Vendedor/AcessarExtrato/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Vendedor/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Vendedor/AlterarAliquotaDeComissao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Vendedor/AlterarVendedorSupervisor/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Vendedor/ConsultarCadastroNaReceita/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Cadastros/Vendedor/EnviarEmail/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Vendedor/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Cadastros/Vendedor/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Cadastros/Vendedor/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Cadastros/Vendedor/Listar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Cadastros/Vendedor/VisualizarComissaoPorCanalDeVenda/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Cadastros/Vendedor/VisualizarComissaoPorSecao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/AssistenteDeCompra/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/AutorizarPedido/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/CancelarPedido/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/CopiarPedido/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/EstornarCancelamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/GerarEntrada/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/ImprimirNegociacao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Compras/PedidoDeCompra/ImprimirPedidoDeCompra/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/RejeitarPedido/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Compras/PedidoDeCompra/SolicitarAutorizacao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Compras/PedidoDeCompra/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ArquivoParaContaBancaria/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ArquivoParaContaBancaria/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ArquivoParaContaBancaria/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ArquivoParaContaBancaria/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ArquivoParaContaBancaria/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ArquivoParaContaBancaria/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/BarraDeMenu/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/CampoPersonalizado/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CampoPersonalizado/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CampoPersonalizado/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CampoPersonalizado/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CampoPersonalizado/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/CertificadosDigitais/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CertificadosDigitais/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CertificadosDigitais/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/CertificadosDigitais/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Configuracoes/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Configuracoes/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Configuracoes/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfiguracoesLocal/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfiguracoesLocal/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfiguracoesLocal/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeMdfe/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeMdfe/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfigurarEmissaoDeMdfe/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeNfce/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeNfce/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfigurarEmissaoDeNfce/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeNfe/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeNfe/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfigurarEmissaoDeNfe/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeNfse/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeNfse/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfigurarEmissaoDeNfse/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeSat/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/ConfigurarEmissaoDeSat/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConfigurarEmissaoDeSat/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ContaDeEmail/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ContaDeEmail/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ContaDeEmail/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ContaDeEmail/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ContaDeEmail/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConversaoBaseDeDados/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ConversaoBaseDeDados/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DanfeECCe/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DanfeECCe/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DiaInutil/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DiaInutil/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DiaInutil/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DiaInutil/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/DiaInutil/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/Empresas/ConsultarCadastroNaReceita/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/ImprimirEtiquetas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Empresas/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/FtpPorEmpresa/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/FtpPorEmpresa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDamdfe/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDamdfe/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDamdfe/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDanfce/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDanfce/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDanfce/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDanfse/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDanfse/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutDanfse/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutSat/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutSat/Configurar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/LayoutSat/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ModeloDeMensagem/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ModeloDeMensagem/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ModeloDeMensagem/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/ModeloDeMensagem/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/NfeCertificadosDigitais/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeCertificadosDigitais/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeCertificadosDigitais/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/NfeContingencia/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeContingencia/Encerrar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeContingencia/Iniciar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeContingencia/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeFusoHorario/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeFusoHorario/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/NfeFusoHorario/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/PerfisDeUsuarios/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/PerfisDeUsuarios/AutorizarEntradaSemParcelaDePagamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/PerfisDeUsuarios/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/PerfisDeUsuarios/Exportar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/PerfisDeUsuarios/Importar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/PerfisDeUsuarios/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/PerfisDeUsuarios/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Tarefas/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Tarefas/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Tarefas/EmExecucao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Tarefas/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Tarefas/Incluir/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Configuracao/Tarefas/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Configuracao/Usuarios/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/AlterarSenha/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Configuracao/Usuarios/AlterarSenhaDeOutroUsuario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/Bloquear/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/Desbloquear/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Configuracao/Usuarios/Listar/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/Abertura/", "Value": "true"},
+        {"Key": "cplus5/CPlusPDV/Funcao/AbreGaveta/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AcrescimoNoItemPercentual/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AcrescimoNoItemValor/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AcrescimoSubtotalPercentual/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AcrescimoSubtotalValor/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AdministrarTef/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AlterarSubtotal/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AlterarValorTotalDoItem/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/AlterarValorUnitario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/BaixaDeTitulo/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/BaixaDeVale/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/CancelaCupom/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/CancelaItem/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/CancelamentoCupomAnterior/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ConfiguracoesLocais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ConsultaProduto/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ConsultarStatusSefaz/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ContingenciaOffline/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/DescontoNoItemPercentual/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/DescontoNoItemValor/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/DescontoSubtotalPercentual/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/DescontoSubtotalValor/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/DesligaPdv/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/EntraOperador/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/Fechamento/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/FecharAplicacao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ImprimirUltimaVenda/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/LeituraDav/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/LeituraDavOs/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/LeituraPreVenda/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/LeituraX/", "Value": "true"},
+        {"Key": "cplus5/CPlusPDV/Funcao/LerPeso/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/NumeradorDocumentoFiscal/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/PagamentoAntecipado/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/PedeCliente/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/PedeVendedor/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/ReducaoZ/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ReexportarMovimento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/ResumoDeOperacao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/SairConsultaProduto/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/CPlusPDV/Funcao/Sangria/", "Value": "true"},
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/SuprimentoEmDinheiro/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/CPlusPDV/Funcao/VendaPorValor/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Davs/StatusDoOrcamento/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Davs/StatusDoOrcamento/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Davs/StatusDoOrcamento/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Davs/StatusDoOrcamento/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/ComponenteDaProducao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ComponenteDaProducao/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ComponenteDaProducao/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ComponenteDaProducao/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ComponenteDaProducao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ConferenciaCegaDeEntrada/Conferir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/ConferenciaCegaDeEntrada/EfetivarConferencia/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/ConferenciaCegaDeEntrada/EfetivarConferenciaComDivergencia/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/ConferenciaCegaDeEntrada/ImprimirFormulario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ConferenciaCegaDeEntrada/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ConferenciaCegaDeSaida/Conferir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/ConferenciaCegaDeSaida/EfetivarConferencia/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/ConferenciaCegaDeSaida/ImprimirFormulario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ControleDeEntrega/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ControleDeEntrega/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ControleDeEntrega/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ControleDeEntrega/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ControleDeEntrega/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/ControleDeEntrega/VendaParaEntrega/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Entrada/AcessarListagemDeContasAPagar/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Entrada/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Entrada/AtenderNecessidades/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Entrada/AtenderNecessidadesComDivergenciaNoPreco/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/CancelarEntrada/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Entrada/CancelarNfe/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Entrada/ConsultarChaveDeAcesso/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/CriarDevolucao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/DesfazerEntrada/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Entrada/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Entrada/GerarNfe/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Entrada/GerarNfeDeDevolucao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/ImprimirDanfe/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/ImprimirEntrada/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/ImprimirEtiquetaDeSeriais/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Entrada/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Entrada/IncluirPorNfe/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/IntegracaoFinanceiro/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Entrada/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Entrada/RealizarEntrada/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Entrada/SolicitarConfirmacaoParaReajustarOsPrecos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Entrada/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/EtiquetaDeProduto/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/EtiquetaDeProduto/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/EtiquetaDeProduto/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/FormulaDeProducao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/FormulaDeProducao/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/FormulaDeProducao/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/FormulaDeProducao/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/FormulaDeProducao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Inventario/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Inventario/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Inventario/Autorizar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Inventario/CancelarInventario/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Inventario/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Inventario/FinalizarContagem/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Inventario/Imprimir/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Inventario/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Inventario/IniciarContagem/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Inventario/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Inventario/ProcessarInventario/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/NecessidadeDeMovimento/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/NecessidadeDeMovimento/Cancelar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/NecessidadeDeMovimento/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/NecessidadeDeMovimento/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeProducao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeProducao/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeProducao/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeProducao/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeProducao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/OrdemDeTransferencia/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeTransferencia/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeTransferencia/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeTransferencia/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeTransferencia/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/OrdemDeTransferencia/Transferir/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Portaria/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Prevenda/AlterarPrecoDeVenda/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Prevenda/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Encaminhar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Finalizar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RomaneioDeEntrega/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RotaDeEntrega/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RotaDeEntrega/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RotaDeEntrega/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RotaDeEntrega/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/RotaDeEntrega/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AcessarListagemDeChequesDeTerceiros/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AcessarListagemDeContasAReceber/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/AcessarListagemDeDevolucoes/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/AcessarListagemDeEntregas/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AcessarListagemDeOrdensDeServico/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/AcessarListagemDeVales/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/AglutinarSaidasPorCliente/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/AlterarEntregador/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/AlterarPrecoDeVenda/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/AlterarStatus/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/AlterarVendedorPrincipal/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AutorizarSaidaComEstoqueNegativo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AutorizarVendaComLimiteDeCreditoEsgotado/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AutorizarVendaComQuantidadeMaximaExcedidaDeItensVendidosPorClienteAoDia/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/AutorizarVendaParaClienteInadimplente/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/CancelarNfce/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/CancelarNfe/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/CancelarNfse/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/CancelarSaida/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/CartaDeCorrecao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/ConsultarChaveDeAcesso/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/ConsultarRPSLoteNota/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/DesfazerSaida/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/Devolucao/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/DevolucaoDeEntradaOtimizada/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/DevolucaoDeProdutosEmConsignacao/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/DevolverSaida/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/DevolverVenda/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/EnviarEmail/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/EnviarNfsePorEmail/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/EstornarSaida/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/ExcluirNfe/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/GeradorDeCargaCPlusPDV/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/GerarCfeSat/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/GerarContrato/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/GerarEspelhoDeDevolucao/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/GerarNfce/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/GerarNfe/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/GerarNfeDeNfce/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/GerarNfse/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/GerarNfseEmLote/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/GerarOrcamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/GerarOrdemDeServico/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/ImprimirCce/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/ImprimirDanfce/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/ImprimirDanfe/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/ImprimirDocumentoFiscalEmLote/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/ImprimirReconhecimentoDeDivida/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/ImprimirRps/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/ImprimirSaida/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/IntegracaoEntregas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/IntegracaoFinanceiro/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/IntegracaoOrdemDeServico/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/IntegracoeDevolucoes/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/KanBanVendas/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/LancarNoControleDeEntrega/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/LerEntrada/", "Value": "true"},
+        {"Key": "cplus5/Estoque/Saida/LerOrcamento/", "Value": "true"},
+        {
+          "Key": "cplus5/Estoque/Saida/LerOrdemDeServico/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/Listar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Estoque/Saida/PermitirUsarValeDeOutrosClientes/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/PontoDeVendaDetalhado/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/PontoDeVendaResumido/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Saida/PrestacaoDeContasDeProdutosEmConsignacao/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Estoque/Saida/RealizarSaida/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Estoque/Saida/SolicitarConfirmacaoParaReajustarOsPrecos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/VisualizarLucroEMargensDeLucro/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Saida/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/SetorDoEstoque/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/SetorDoEstoque/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/SetorDoEstoque/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/SetorDoEstoque/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/SetorDoEstoque/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/Cancelar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/Transferencia/GerarItensDaTransferencia/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/Transferencia/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/TransferenciaEntreSetores/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/TransferenciaEntreSetores/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Estoque/TransferenciaEntreSetores/AutorizarTransferenciaComEstoqueNegativo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/TransferenciaEntreSetores/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/TransferenciaEntreSetores/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/TransferenciaEntreSetores/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/TransferenciaEntreSetores/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Estoque/TransferenciaEntreSetores/Transferir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/AdquirentesDeCartoes/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/AdquirentesDeCartoes/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/AdquirentesDeCartoes/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/AdquirentesDeCartoes/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/AdquirentesDeCartoes/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Banco/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Banco/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Banco/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Banco/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Banco/Listar/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Caixa/AbrirCaixa/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Caixa/FecharCaixa/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Caixa/LeituraDoCaixa/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Caixa/ListarMovimentoDoTerminal/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Caixa/ListarMovimentoDoUsuario/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/Caixa/PermitirVisualizarMovimentosDosTerminaisRealizadosPorOutrosUsuarios/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Caixa/Sangria/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Caixa/Suprimento/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/CentroDeCusto/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/CentroDeCusto/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/CentroDeCusto/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/CentroDeCusto/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/CentroDeCusto/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ChequeDeTerceiros/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Conciliar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Depositar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/DepositarVarios/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Devolver/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ChequeDeTerceiros/PermitirUsarValeDeOutrosClientes/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Repassar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/RepassarVarios/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeDeTerceiros/Resgatar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ChequeDeTerceiros/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/Conciliar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/ConciliarVarios/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/Devolver/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ChequeEmitido/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ChequeEmitido/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConferenciaCega/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConferenciaCega/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConferenciaCega/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConferenciaCega/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConferenciaCega/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConsultaCredito/EfetuarConsulta/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ConsultaCredito/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Conta/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Conta/AjusteDeCadastroDuplicado/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Conta/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Conta/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Conta/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Conta/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/AlterarDataDeBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/AlterarDataDeCadastro/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/AlterarDataDeVencimento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/AlterarTipoBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/AlterarValorDoTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/AutorizarBaixaDeTituloComDataMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/AutorizarCancelamentoDeBaixaComDataDaBaixaMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/AutorizarCancelamentoDeBaixaComDataDoCancelamentoMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/AutorizarVencimentoMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/BaixarTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/BaixarVariosTitulos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/CancelarBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/CancelarTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/CriarLigacaoComCompra/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/PermitirDescontoNaBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/PermitirMultaEJurosNaBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAPagar/Renegociacao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAPagar/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AcessarExtratoDeCliente/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/AlterarDataDaBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AlterarDataDeCadastro/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AlterarDataDeVencimento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/AlterarJuros/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/Alterarmulta/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/AlterarTipoBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AlterarValorDoTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AutorizarBaixaDeTituloComDataMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AutorizarCancelamentoDeBaixaComDataDaBaixaMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AutorizarCancelamentoDeBaixaComDataDoCancelamentoMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/AutorizarVencimentoMenorOuIgualADataDaTrava/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/BaixarTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/BaixarTituloComRemessaGerada/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/BaixarVariosTitulos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/CancelarBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/CancelarNossoNumero/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/CancelarTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/CriarLigacaoComVenda/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/DispensarJuros/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/DispensarMulta/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/EnviarEmail/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/EnviarSms/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/GerarArquivoRemessa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/ImprimirCobrancaBancaria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/ImprimirCobrancaBancariaEmLote/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/PermitirDescontoNaBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/PermitirMultaEJurosNaBaixa/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/PermitirUsarValeDeOutrosClientes/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/ProcessarArquivoRetorno/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/ProgramarEnvioDeCobrancaBancariaTituloSelecionado/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/ProgramarEnvioDeCobrancaBancariaVariosTitulos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ContasAReceber/Renegociacao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/ContasAReceber/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Contrato/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Contrato/AlterarItemDoContrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/BloquearContrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/BloquearItem/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/CancelarContrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/CancelarItem/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/DesbloquearContrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/DesbloquearItem/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Contrato/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Contrato/GerarCobranca/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Contrato/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Contrato/LiberarCobrancaItem/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/LiberarContrato/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/LiberarItem/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Contrato/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Contrato/ParalizarCobrancaItem/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/SolicitarLiberacao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Contrato/SolicitarLiberacaoDoItem/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ControleDeRecibo/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ControleDeRecibo/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ControleDeRecibo/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ControleDeRecibo/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ControleDeRecibo/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DataDaTrava/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/DesbloqueioDeTitulo/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DesbloqueioDeTitulo/Desbloquear/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DesbloqueioDeTitulo/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/DesbloqueioDeTitulo/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DespesaFixa/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DespesaFixa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DespesaFixa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DespesaFixa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DespesaFixa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/DRE/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/DRE/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/DRE/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/DRE/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/DRE/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/EquipamentoPos/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/EquipamentoPos/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/EquipamentoPos/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/EquipamentoPos/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/EquipamentoPos/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/FormaDePagamento/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/FormaDePagamento/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/FormaDePagamento/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/FormaDePagamento/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/FormaDePagamento/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Indexador/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Indexador/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Indexador/Incluir/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Indexador/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Autorizar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Cancelar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/GerarRemessaBancaria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/LoteDeBaixa/SolicitarAutorizacao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/LoteDeBaixa/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MeioDePagamento/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MeioDePagamento/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MeioDePagamento/Duplicar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MeioDePagamento/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MeioDePagamento/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MeioDePagamento/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MotivoDeCancelamentoDeContrato/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MotivoDeCancelamentoDeContrato/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MotivoDeCancelamentoDeContrato/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MotivoDeCancelamentoDeContrato/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MotivoDeCancelamentoDeContrato/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/AlterarAnexo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/AlterarDataDoMovimento/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/AlterarMovimentoDeContaOriundoDeBaixaDeTitulo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/Conferir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/ConsultaMovimentoContaGeral/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/ExcluirAnexo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/IncluirAnexo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/IncluirTransferencia/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/MovimentoDeConta/MovimentoCartoes/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/PermitirDataDoMovimentoFutura/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/VisualizarSaldosNaListagem/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/MovimentoDeConta/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/NaturezaDeLancamento/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/NaturezaDeLancamento/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/NaturezaDeLancamento/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/NaturezaDeLancamento/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/NaturezaDeLancamento/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ReceitaFixa/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ReceitaFixa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ReceitaFixa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ReceitaFixa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/ReceitaFixa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/RemessaDeRelatoSerasa/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Financeiro/SituacaoAdministrativa/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/SituacaoAdministrativa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/SituacaoAdministrativa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/SituacaoAdministrativa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/SituacaoAdministrativa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/TipoDeBaixa/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/TipoDeBaixa/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/TipoDeBaixa/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/TipoDeBaixa/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Vale/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Vale/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Vale/BaixarVale/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Vale/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Vale/Imprimir/", "Value": "true"},
+        {"Key": "cplus5/Financeiro/Vale/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Vale/IntegracaoContasAReceber/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Vale/IntegracaoDevolucao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Financeiro/Vale/IntegracaoVenda/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Financeiro/Vale/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Financeiro/Vale/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/AjusteDeCadastroDuplicadoNCM/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/AjusteDeCadastroDuplicadoNCM/executar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/CalculoIcms/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/CalculoIcms/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/CalculoIcms/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/CalculoIcms/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/CalculoIcms/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/CalculoIss/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/CalculoIss/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/CalculoIss/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/CalculoIss/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/CalculoIss/Listar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Cfop/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Cfop/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Cfop/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Cfop/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/ClassificacaoFiscal/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/ClassificacaoFiscal/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/ClassificacaoFiscal/Atualizar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/ClassificacaoFiscal/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/ClassificacaoFiscal/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/ClassificacaoFiscal/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCfop/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCfop/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCfop/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCfop/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCfop/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIcms/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIcms/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIcms/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIcms/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIcms/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIpi/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIpi/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIpi/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIpi/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/EquivalenciaCstIpi/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/ImportarIbpt/Importar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Fiscal/IntegracaoFiscal/ExcluirDocumentoEmLote/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/ExportarWFiscal/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/GerarDocumentos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/IntegracaoFiscal/RastrearDocumento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/LC116/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/LC116/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/LC116/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/LC116/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/LC116/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/Mensagens/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/Mensagens/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Mensagens/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Mensagens/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Mensagens/Listar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Nbs/AcessarAuditoria/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Nbs/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Nbs/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Nbs/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Nbs/Listar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Ncm/AcessarAuditoria/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Ncm/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Ncm/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Ncm/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Ncm/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/Operacao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/Operacao/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Operacao/Duplicar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Operacao/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Operacao/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Operacao/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/PerfilTributario/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/PerfilTributario/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/PerfilTributario/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/PerfilTributario/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/PerfilTributario/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/RadarNfe/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/RadarNfe/DownloadNfe/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/RadarNfe/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/RadarNfe/ManifestarCienciaDaEmissao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Fiscal/RadarNfe/ManifestarDesconhecimentoDaOperacao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Fiscal/RadarNfe/ManifestarOperacaoNaoRealizada/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/RadarNfe/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/RegraCfop/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/RegraCfop/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/RegraCfop/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/RegraCfop/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/RegraCfop/Listar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Sat/Acessar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Sat/Exportar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Sintegra/Acessar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/Sintegra/Exportar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/SpedContribuicoes/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/SpedContribuicoes/Exportar/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/SpedIcms/Acessar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/SpedIcms/Exportar/", "Value": "true"},
+        {
+          "Key": "cplus5/Fiscal/TipoDeDocumento/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TipoDeDocumento/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TipoDeDocumento/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TipoDeDocumento/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TipoDeDocumento/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TributacaoNfce/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TributacaoNfce/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TributacaoNfce/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TributacaoNfce/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Fiscal/TributacaoNfce/Listar/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Fiscal/WContabil/Acessar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/WContabil/Exportar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/XmlNfce/Acessar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/XmlNfce/Exportar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/XmlNfe/Acessar/", "Value": "true"},
+        {"Key": "cplus5/Fiscal/XmlNfe/Exportar/", "Value": "true"},
+        {"Key": "cplus5/Geral/Dashboard/Visualizar/", "Value": "true"},
+        {
+          "Key": "cplus5/Geral/MenuFavoritos/CopiarParaOutroUsuario/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Geral/MenuFavoritos/Limpar/", "Value": "true"},
+        {
+          "Key": "cplus5/Geral/MenuFavoritos/SelecionarFavoritos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AcertarEstoque/Acertar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AjusteDeCadastroDuplicado/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AjusteDeCadastroDuplicado/executar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AlteracaoDePrecosEmLista/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AlteracaoDePrecosEmLista/ProcessarAlteracao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AlteracaoDePrecosEmLote/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AlteracaoDePrecosEmLote/ProcessarAlteracao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AtivarInativarProdutos/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AtivarInativarProdutos/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AtualizacaoDeClassificacao/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AtualizacaoDeClassificacao/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AtualizacaoDeLocalizacao/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/AtualizacaoDeLocalizacao/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AtualizarCaracteristicaDeProduto/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AtualizarCaracteristicaDeProduto/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AtualizarQuantidadeMinimaEIdeal/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AtualizarQuantidadeMinimaEIdeal/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AutorizacaoLoteDeAlteracaoDePreco/Autorizar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AutorizacaoLoteDeAlteracaoDePreco/Cancelar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/AutorizacaoLoteDeAlteracaoDePreco/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CadeiaDePreco/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CadeiaDePreco/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CadeiaDePreco/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CadeiaDePreco/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CadeiaDePreco/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/CaracteristicaDeProduto/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CaracteristicaDeProduto/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CaracteristicaDeProduto/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CaracteristicaDeProduto/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CaracteristicaDeProduto/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/CategoriaComercioEletronico/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CategoriaComercioEletronico/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CategoriaComercioEletronico/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CategoriaComercioEletronico/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CategoriaComercioEletronico/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/CotacaoComConcorrente/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CotacaoComConcorrente/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CotacaoComConcorrente/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/CotacaoComConcorrente/ImprimirCotacaoComConcorrente/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CotacaoComConcorrente/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/CotacaoComConcorrente/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/CotacaoComConcorrente/PrecosCotacaoComConcorrente/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/EncargoDeVenda/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/EncargoDeVenda/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/EncargoDeVenda/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/EncargoDeVenda/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/EncargoDeVenda/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Familia/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Familia/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Familia/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Familia/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Familia/Listar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Produtos/GerarArquivoDeProdutoParaBalanca/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/GerarArquivoDeProdutoParaBalanca/GerarArquivo/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/GerarArquivoDeProdutoParaColetor/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/GerarArquivoDeProdutoParaColetor/GerarArquivo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GradeDeProdutos/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GradeDeProdutos/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GradeDeProdutos/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GradeDeProdutos/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GradeDeProdutos/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GrupoDoProduto/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GrupoDoProduto/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GrupoDoProduto/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GrupoDoProduto/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/GrupoDoProduto/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/LocalizacaoDeProduto/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LocalizacaoDeProduto/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LocalizacaoDeProduto/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LocalizacaoDeProduto/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LocalizacaoDeProduto/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/LoteDeAlteracaoDePreco/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LoteDeAlteracaoDePreco/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LoteDeAlteracaoDePreco/Autorizar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LoteDeAlteracaoDePreco/Cancelar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LoteDeAlteracaoDePreco/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LoteDeAlteracaoDePreco/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/LoteDeAlteracaoDePreco/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ManutencaoDePrecosOffline/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/ManutencaoDePrecosOffline/AtualizarPrecos/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/ManutencaoDePrecosOffline/ExcluirPrecosOffLine/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/ManutencaoDePromocao/EncerrarPromocao/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/ManutencaoDePromocao/EncerrarPromocaoAntesDoVencimento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ManutencaoDePromocao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/ManutencaoDePromocao/ManutencaoDePromocaoDeProduto/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/ManutencaoDePromocao/ProrrogarPromocao/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Marca/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Marca/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Marca/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Marca/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Marca/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Produtos/PadronizarCodigosDeProduto/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/PadronizarCodigosDeProduto/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Produto/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Produto/AcessarListagemDeEntradas/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/Produto/AcessarListagemDeMovimentacoes/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Produto/AcessarListagemDeReservas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Produto/AcessarListagemDeSaidas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Produto/Alterar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Produtos/Produto/AlterarCustoPrecoDeVendaEMargemDeLucro/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/Produto/AtualizacaoDePrecoPorArquivo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Produto/DuplicarProduto/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Produto/Excluir/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Produtos/Produto/ImportarProdutosComercioEletronico/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Produto/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Produtos/Produto/IncluirProdutoGrade/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Produto/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Produtos/Produto/ManutencaoCodigo/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Produto/Pesquisa/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Produtos/Produto/VisualizarEstoqueDeTodasEmpresas/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/Produto/VisualizarForncedoresDoProduto/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Produtos/Produto/VisualizarPrecoDeCustoEMargemDeLucro/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoDaAnp/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoDaAnp/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoDaAnp/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoDaAnp/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoDaAnp/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoPerigoso/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoPerigoso/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoPerigoso/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoPerigoso/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ProdutoPerigoso/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Secao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Secao/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Secao/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Secao/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Secao/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Produtos/TabelaDePreco/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TabelaDePreco/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TabelaDePreco/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TabelaDePreco/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TabelaDePreco/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeCodigo/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeCodigo/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeCodigo/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeCodigo/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeCodigo/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeGrade/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeGrade/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeGrade/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/TipoDeGrade/Incluir/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/TipoDeGrade/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Produtos/UnidadeDeMedida/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/UnidadeDeMedida/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/UnidadeDeMedida/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/UnidadeDeMedida/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/UnidadeDeMedida/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/Variacao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Produtos/Variacao/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Variacao/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Variacao/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Produtos/Variacao/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Produtos/ZerarEstoque/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Produtos/ZerarEstoque/Executar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Relatorio/Financeiro/CarteiraDeCobrancaBancaria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/ChequesEmitidos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/ChequesRecebidos/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Relatorio/Financeiro/ContaCorrenteDeFornecedores/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/ContasAPagar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/ContasAReceber/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Relatorio/Financeiro/ContasAReceberPorVendedor/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/Contratos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/DemonstrativoFinanceiro/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/DespesasFixas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/DespesasPorLoja/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Financeiro/Dre/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Relatorio/Financeiro/FinanceiroPorNaturezaDeLancamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/FinanceiroPorPeriodo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/FluxoDeCaixa/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/MovimentoBancario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/MovimentoDeConta/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/MovimentosDeTerminais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/PrazoMedio/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/ReceitasFixas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/RelatorioDoDia/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Financeiro/ValesAPagar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Fiscal/ApuracaoDoIcms/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Fiscal/DocumentosFiscais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/OrdemServico/Geral/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Pessoas/Clientes/", "Value": "true"},
+        {
+          "Key": "cplus5/Relatorio/Pessoas/DescontoDeFuncionarios/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Pessoas/Fornecedores/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Pessoas/Funcionarios/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Pessoas/Revendas/", "Value": "true"},
+        {
+          "Key": "cplus5/Relatorio/Produtos/AnaliseDePontoCritico/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Produtos/CurvaABC/", "Value": "true"},
+        {"Key": "cplus5/Relatorio/Produtos/Entradas/", "Value": "true"},
+        {
+          "Key": "cplus5/Relatorio/Produtos/EstoqueDeTroca/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Produtos/Geral/", "Value": "true"},
+        {
+          "Key": "cplus5/Relatorio/Produtos/Inventario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/MovimentacaoDeProduto/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/MovimentacaoDoEstoque/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/OrdemDeTransferencia/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/PatrimonioEmEstoque/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/PrecosOffline/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/ProdutoPorLote/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Produtos/TabelaDePreco/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Vendas/AcompanhamentoDeVendas/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Vendas/Consignacao/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Vendas/Devolucoes/", "Value": "true"},
+        {
+          "Key": "cplus5/Relatorio/Vendas/EvolucaoDeVendas/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Relatorio/Vendas/Orcamentos/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Relatorio/Vendas/RelatorioDeControleDeEntregas/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Relatorio/Vendas/RelatorioDeCurvaABCDeClientes/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Vendas/RelatorioDeOrcamento/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Relatorio/Vendas/RelatorioDeProdutosNaoVendidos/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Relatorio/Vendas/VendasPorPeriodo/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/Auditoria/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/ContingenciaNfce/GerarLote/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/CorreioInterno/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Utilitarios/GerarArquivoDeDadosIntelbras/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Utilitarios/GerarArquivoDeDadosNeogrid/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/ImportadorDeDados/Acessar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/InutilizacaoNfe/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/InutilizacaoNfe/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/InutilizacaoNfe/Imprimir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/InutilizacaoNfe/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/InutilizacaoNfe/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/LogDeExecucao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/LogDeExecucao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/SaltoNumeroNFe/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/SobreOSistema/Visualizar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/Usuario/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Utilitarios/Usuario/AutorizacaoPermissaoOnDemand/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/Usuario/MudarDeUsuario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Utilitarios/Usuario/MudarSenhaDeUsuario/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ArquivoMovimentacaoPdv/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/CanalDeVenda/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/CanalDeVenda/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Venda/CanalDeVenda/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/CanalDeVenda/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/CanalDeVenda/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/ComercioEletronico/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ComercioEletronico/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ComercioEletronico/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ComercioEletronico/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ComissaoDeVendedores/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ComissaoDeVendedores/GerarPagamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ComissaoDeVendedores/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/FormaDeEnvio/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/FormaDeEnvio/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Venda/FormaDeEnvio/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/FormaDeEnvio/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/FormaDeEnvio/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/ManutencaoDeMetaDeVenda/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MetaDeComissao/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MetaDeComissao/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MetaDeComissao/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MetaDeComissao/Incluir/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/MetaDeComissao/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/MetaDeVenda/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/MetaDeVenda/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Venda/MetaDeVenda/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/MetaDeVenda/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/MetaDeVenda/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/ModeloDeComissao/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ModeloDeComissao/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ModeloDeComissao/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/ModeloDeComissao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MotivoDaDevolucao/Alterar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MotivoDaDevolucao/Excluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MotivoDaDevolucao/Incluir/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/MotivoDaDevolucao/Listar/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/AcessarListagemDeSaida/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/Orcamento/Alterar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/Orcamento/AlterarItemDoOrcamento/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/AlterarPrecoDeVenda/",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "cplus5/Venda/Orcamento/AutorizarOrcamentoComEstoqueNegativo/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/Orcamento/Cancelar/", "Value": "true"},
+        {"Key": "cplus5/Venda/Orcamento/EnviarEmail/", "Value": "true"},
+        {"Key": "cplus5/Venda/Orcamento/Excluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/Orcamento/ExcluirItemDoOrcamento/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/Orcamento/Faturar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/Orcamento/FaturarOrcamentoVencido/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/FaturarVariosOrcamentos/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/Orcamento/Incluir/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/Orcamento/IncluirPreVenda/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/Orcamento/LerVenda/", "Value": "true"},
+        {"Key": "cplus5/Venda/Orcamento/Listar/", "Value": "true"},
+        {
+          "Key":
+              "cplus5/Venda/Orcamento/VisualizarLucroEMargensDeLucro/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/VisualizarOrcamentoFaturado/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/VisualizarValoresTotais/",
+          "Value": "true"
+        },
+        {
+          "Key": "cplus5/Venda/Orcamento/ZerarQuantidadeFaturada/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/StatusDaVenda/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Venda/StatusDaVenda/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/StatusDaVenda/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/StatusDaVenda/Listar/", "Value": "true"},
+        {"Key": "cplus5/Venda/Tag/AcessarAuditoria/", "Value": "true"},
+        {"Key": "cplus5/Venda/Tag/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Venda/Tag/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/Tag/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/Tag/Listar/", "Value": "true"},
+        {
+          "Key": "cplus5/Venda/Terminal/AcessarAuditoria/",
+          "Value": "true"
+        },
+        {"Key": "cplus5/Venda/Terminal/Alterar/", "Value": "true"},
+        {"Key": "cplus5/Venda/Terminal/Excluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/Terminal/Incluir/", "Value": "true"},
+        {"Key": "cplus5/Venda/Terminal/Listar/", "Value": "true"},
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/usuario/nome",
+          "Value": "Administrador"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/usuario/login",
+          "Value": "admin"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/usuario/serial",
+          "Value": "00000001"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/usuario/email",
+          "Value": ""
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/usuario/telefoneprincipal",
+          "Value": ""
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/usuario/id",
+          "Value": "634992c2-51a8-40d2-9fd4-044e61e5f87e"
+        },
+        {
+          "Key": "cplus5/tabeladepreco/ids",
+          "Value":
+              "70633854-ae98-4cf2-a5af-b20bf8d7bef9,e793d42d-578a-43fc-9630-3fa859d541d6,08bd4377-1423-42d6-8d22-1bf36dc3be4b"
+        },
+        {
+          "Key":
+              "cplus5/tabeladepreco/70633854-ae98-4cf2-a5af-b20bf8d7bef9/descontomaximo",
+          "Value": "0"
+        },
+        {
+          "Key":
+              "cplus5/tabeladepreco/e793d42d-578a-43fc-9630-3fa859d541d6/descontomaximo",
+          "Value": "0"
+        },
+        {
+          "Key":
+              "cplus5/tabeladepreco/08bd4377-1423-42d6-8d22-1bf36dc3be4b/descontomaximo",
+          "Value": "0"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/447a7620-1ded-4d24-b546-3e39d8db076f/padrao",
+          "Value": "true"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/447a7620-1ded-4d24-b546-3e39d8db076f/produtos_licenciados",
+          "Value":
+              "000003,000020,000102,000106,000109,000115,000130,000132,000134,000152,000644,900001"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/ids/",
+          "Value": "447a7620-1ded-4d24-b546-3e39d8db076f"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/447a7620-1ded-4d24-b546-3e39d8db076f/id/",
+          "Value": "447a7620-1ded-4d24-b546-3e39d8db076f"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/447a7620-1ded-4d24-b546-3e39d8db076f/razaosocial",
+          "Value": "BOMBACINI & CIA LTDA - ME"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/447a7620-1ded-4d24-b546-3e39d8db076f/serial",
+          "Value": "10685"
+        },
+        {
+          "Key":
+              "http://schemas.vvssistemas.com.br/ws/identity/claims/grupoempresa/447a7620-1ded-4d24-b546-3e39d8db076f/identificador",
+          "Value": "10685"
+        }
+      ],
+      "Permissoes": []
+    }
+  },
+  "HasValue": true,
+  "Mensagens": [],
+  "Ok": true,
+  "HasAlerta": false,
+  "HasError": false,
+  "HasErrorPermissao": false,
+  "HasInfo": false
+}

@@ -1,0 +1,11 @@
+{
+  "HasValue": false,
+  "Mensagens": [
+    {"Texto": "Login e/ou senha inválidos", "Tipo": 2}
+  ],
+  "Ok": false,
+  "HasAlerta": false,
+  "HasError": true,
+  "HasErrorPermissao": false,
+  "HasInfo": false
+}
