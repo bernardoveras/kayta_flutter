@@ -11,4 +11,7 @@ abstract class INotificationService {
     Widget? icon,
     void Function()? onTap,
   });
+
+  Future<void> close();
+  void closeAllSnackbars();
 }
