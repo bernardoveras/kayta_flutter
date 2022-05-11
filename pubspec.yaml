@@ -11,7 +11,7 @@ dependencies:
   http: ^0.13.4
   equatable: ^2.0.3
   package_info: ^2.0.2
-  connectivity: ^3.0.6
+  connectivity_plus: ^2.3.0
   shared_preferences: ^2.0.9
   flutter_screenutil: ^5.0.1
   flutter:
@@ -19,7 +19,7 @@ dependencies:
 
 dev_dependencies:
   mockito: ^5.0.16
-  build_runner: ^2.1.5
+  build_runner: ^2.1.10
   flutter_test:
     sdk: flutter
 

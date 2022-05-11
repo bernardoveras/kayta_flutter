@@ -1,4 +1,4 @@
-import 'package:connectivity/connectivity.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kayta_flutter/Shared/Services/NetworkService/INetworkService.dart';
 import 'package:kayta_flutter/Shared/Services/NetworkService/NetworkService.dart';

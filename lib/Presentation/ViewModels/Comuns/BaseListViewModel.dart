@@ -1,9 +1,6 @@
 import 'package:kayta_flutter/kayta_flutter.dart';
 
-import '../../../Shared/Response/KaytaResponse/KaytaResponse.dart';
-import '../../../Shared/Services/NetworkService/INetworkService.dart';
 import '../../../Shared/Utils/ViewState.dart';
-import '../../../ServiceAgents/Comuns/IServiceAgent.dart';
 import '../../ViewModels/Comuns/IViewModel.dart';
 import '../../../Shared/Extensions/ViewStateExtension.dart';
 
