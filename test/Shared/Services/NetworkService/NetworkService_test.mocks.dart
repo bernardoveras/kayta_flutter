@@ -4,8 +4,8 @@
 
 import 'dart:async' as _i3;
 
-import 'package:connectivity_plus/connectivity_plus.dart' as _i2;
-import 'package:connectivity_plus_platform_interface/connectivity_plus_platform_interface.dart'
+import 'package:connectivity/connectivity.dart' as _i2;
+import 'package:connectivity_platform_interface/connectivity_platform_interface.dart'
     as _i4;
 import 'package:mockito/mockito.dart' as _i1;
 
@@ -33,9 +33,9 @@ class MockConnectivity extends _i1.Mock implements _i2.Connectivity {
               returnValue: Stream<_i4.ConnectivityResult>.empty())
           as _i3.Stream<_i4.ConnectivityResult>);
   @override
-  _i3.Future<_i4.ConnectivityResult> checkConnectivity() =>
-      (super.noSuchMethod(Invocation.method(#checkConnectivity, []),
-              returnValue: Future<_i4.ConnectivityResult>.value(
-                  _i4.ConnectivityResult.bluetooth))
-          as _i3.Future<_i4.ConnectivityResult>);
+  _i3.Future<_i4.ConnectivityResult> checkConnectivity() => (super.noSuchMethod(
+          Invocation.method(#checkConnectivity, []),
+          returnValue:
+              Future<_i4.ConnectivityResult>.value(_i4.ConnectivityResult.wifi))
+      as _i3.Future<_i4.ConnectivityResult>);
 }
