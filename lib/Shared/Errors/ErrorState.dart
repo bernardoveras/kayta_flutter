@@ -37,7 +37,7 @@ class ErrorState extends Equatable {
       this.mensagem = error.mensagem;
     }
     else {
-      this.mensagem = 'Oops, ocorreu um erro.';
+      this.mensagem = error.toString();
     }
   }
 
