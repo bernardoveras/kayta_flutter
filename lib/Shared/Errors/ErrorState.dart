@@ -37,6 +37,12 @@ class ErrorState extends Equatable {
       this.mensagem = error.mensagem;
     }
     else {
+      try{
+        final error = jsonDecode();
+        this.message = error['Mensagens'][0]['Texto'];
+        return;
+      }
+      catch(e){}
       this.mensagem = error.toString();
     }
   }
