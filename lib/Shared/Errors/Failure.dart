@@ -47,7 +47,7 @@ class ApiException implements Exception {
 
   ApiException.fromResponse(Response response)
       : this.statusCode = response.statusCode,
-        this.msg = jsonDecode(response.body);
+        this.msg = response.body;
 }
 
 class ApiMessageException implements Exception {
