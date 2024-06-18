@@ -2,6 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 import 'dart:async';
 import 'dart:io';
+import 'dart:convert';
 import 'Failure.dart';
 
 class ErrorState extends Equatable {
