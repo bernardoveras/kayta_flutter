@@ -40,7 +40,7 @@ class ErrorState extends Equatable {
       try {
         if (error.msg?.contains('Mensagens') == true) {
           final errorJson = jsonDecode(error.msg!);
-          this.message = errorJson['Mensagens'][0]['Texto'];
+          this.mensagem = errorJson['Mensagens'][0]['Texto'];
           
           return;
         }
