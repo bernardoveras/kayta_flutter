@@ -46,7 +46,7 @@ class HttpService implements IHttpService {
     } on Failure catch (e) {
       throw ApiFailure(error: e);
     } catch (e) {
-      throw ApiFailure();
+      rethrow;
     }
   }
 
@@ -76,7 +76,7 @@ class HttpService implements IHttpService {
     } on Failure catch (e) {
       throw ApiFailure(error: e);
     } catch (e) {
-      throw ApiFailure();
+      rethrow;
     }
   }
 
