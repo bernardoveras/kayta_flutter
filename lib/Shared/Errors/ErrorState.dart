@@ -36,14 +36,20 @@ class ErrorState extends Equatable {
       this.mensagem = 'Não foi possível completar sua requisição, tente novamente.';
     } else if (error is ErrorState) {
       this.mensagem = error.mensagem;
+    } else if (error is ApiException) {
+      try {
+        if (error.msg?.contains('Mensagens') == true) {
+          final error = jsonDecode(error.msg!);
+          this.message = error['Mensagens'][0]['Texto'];
+          
+          return;
+        }
+      }
+      catch(_) {}
+      
+      this.mensagem = error.toString();
     }
     else {
-      try{
-        final error = jsonDecode();
-        this.message = error['Mensagens'][0]['Texto'];
-        return;
-      }
-      catch(e){}
       this.mensagem = error.toString();
     }
   }
