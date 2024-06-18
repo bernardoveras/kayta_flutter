@@ -39,8 +39,8 @@ class ErrorState extends Equatable {
     } else if (error is ApiException) {
       try {
         if (error.msg?.contains('Mensagens') == true) {
-          final error = jsonDecode(error.msg!);
-          this.message = error['Mensagens'][0]['Texto'];
+          final errorJson = jsonDecode(error.msg!);
+          this.message = errorJson['Mensagens'][0]['Texto'];
           
           return;
         }
