@@ -27,7 +27,7 @@ class ConfiguracaoInicialServiceAgent implements IConfiguracaoInicialServiceAgen
         return uri.toString();
       }
 
-      var result = await httpService.get('${_buildUrl}/keepalive');
+      var result = await httpService.get('${_buildUrl()}/keepalive');
 
       var body = jsonDecode(result.body);
 
