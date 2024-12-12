@@ -17,10 +17,10 @@ class Configuracoes {
   Uri _buildUri() {
     late Uri uri;
 
-    if (enderecoServidor.contains('http')) {
-      uri = Uri.parse('$enderecoServidor:$portaDoServidor');
+    if (enderecoDoServidor.contains('http')) {
+      uri = Uri.parse('$enderecoDoServidor:$portaDoServidor');
     } else {
-      uri = Uri.http('$enderecoServidor:$portaDoServidor', '');
+      uri = Uri.http('$enderecoDoServidor:$portaDoServidor', '');
     }
 
     return uri;
