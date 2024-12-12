@@ -14,7 +14,7 @@ class Configuracoes {
   static String get url => buildUri.toString();
   static Uri get buildUri => _buildUri();
 
-  Uri _buildUri() {
+  static Uri _buildUri() {
     late Uri uri;
 
     if (enderecoDoServidor.contains('http')) {
