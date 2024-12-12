@@ -18,7 +18,7 @@ class ConfiguracaoInicialServiceAgent implements IConfiguracaoInicialServiceAgen
       String _buildUrl() {
         late Uri uri;
 
-        if (enderecoServidor.contains('http')) {
+        if (configuracao.enderecoDoServidor.contains('http')) {
           uri = Uri.parse('${configuracao.enderecoDoServidor}:${configuracao.portaDoServidor}');
         } else {
           uri = Uri.http('${configuracao.enderecoDoServidor}:${configuracao.portaDoServidor}', '');
