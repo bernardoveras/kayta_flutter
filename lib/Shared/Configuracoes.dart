@@ -11,8 +11,20 @@ class Configuracoes {
 
   static String versaoDoAplicativo = '';
 
-  static String get url => 'http://$enderecoDoServidor:$portaDoServidor';
-  static Uri get buildUri => Uri.parse('http://$enderecoDoServidor:$portaDoServidor');
+  static String get url => buildUri.toString();
+  static Uri get buildUri => _buildUri();
+
+  Uri _buildUri() {
+    late Uri uri;
+
+    if (enderecoServidor.contains('http')) {
+      uri = Uri.parse('$enderecoServidor:$portaDoServidor');
+    } else {
+      uri = Uri.http('$enderecoServidor:$portaDoServidor', '');
+    }
+
+    return uri;
+  }
 
   static void fromConfiguracaoInicial(ConfiguracaoInicialModel model) {
     enderecoDoServidor = model.enderecoDoServidor;

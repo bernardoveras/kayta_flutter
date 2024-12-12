@@ -15,7 +15,19 @@ class ConfiguracaoInicialServiceAgent implements IConfiguracaoInicialServiceAgen
   @override
   Future<KaytaResponse<bool>> verificarConexao(ConfiguracaoInicialModel configuracao) async {
     try {
-      var result = await httpService.get('http://${configuracao.enderecoDoServidor}:${configuracao.portaDoServidor}/keepalive');
+      String _buildUrl() {
+        late Uri uri;
+
+        if (enderecoServidor.contains('http')) {
+          uri = Uri.parse('${configuracao.enderecoDoServidor}:${configuracao.portaDoServidor}');
+        } else {
+          uri = Uri.http('${configuracao.enderecoDoServidor}:${configuracao.portaDoServidor}', '');
+        }
+
+        return uri.toString();
+      }
+
+      var result = await httpService.get('${_buildUrl}/keepalive');
 
       var body = jsonDecode(result.body);
 
