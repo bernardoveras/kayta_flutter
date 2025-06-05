@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import '../../Theme/Colors.dart';
+
 import '../../Extensions/ScreenUtilExtension.dart';
+import '../../Theme/Colors.dart';
 
 class KaytaUnderlineTextField extends StatelessWidget {
   final String title;
@@ -16,6 +17,7 @@ class KaytaUnderlineTextField extends StatelessWidget {
   final int? maxLines;
   final void Function(String)? onFieldSubmitted;
   final TextInputAction? textInputAction;
+  final FormFieldValidator<String>? validator;
 
   const KaytaUnderlineTextField({
     Key? key,
@@ -31,6 +33,7 @@ class KaytaUnderlineTextField extends StatelessWidget {
     this.keyboardType,
     this.maxLines = 1,
     this.textInputAction,
+    this.validator,
   }) : super(key: key);
 
   @override
@@ -66,6 +69,7 @@ class KaytaUnderlineTextField extends StatelessWidget {
                 color: VvsColors.blueGrey,
               ),
           cursorColor: VvsColors.primary,
+          validator: validator,
         ),
       ],
     );
@@ -78,6 +82,7 @@ class KaytaUnderlineTextField extends StatelessWidget {
     FocusNode? focusNode,
     void Function(String)? onFieldSubmitted,
     int? maxLines,
+    FormFieldValidator<String>? validator,
   }) {
     return GestureDetector(
       onTap: () {
@@ -97,6 +102,7 @@ class KaytaUnderlineTextField extends StatelessWidget {
           textInputAction: TextInputAction.done,
           onFieldSubmitted: onFieldSubmitted,
           maxLines: maxLines,
+          validator: validator,
         ),
       ),
     );
